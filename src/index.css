@@ -1,0 +1,291 @@
+/* ###############################        NAV      NAV           ######################## */
+
+.nav-main link {
+    padding: 30px !important;
+  }
+  .nav1 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    transition: 2s !important;
+  }
+  .nav-bar-link {
+    transition: all 0.5s ease-in-out !important;
+    color: white !important;
+  }
+  .nav1 {
+    background-color: #025048;
+  }
+  .nav-bar-link:hover {
+    transform: scale(1.1) !important;
+    color: white !important;
+  }
+  .nav-bar-link:active {
+    color: red !important;
+    font-weight: 700 !important;
+  }
+  .nav-bar-link:focus {
+    font-weight: 700 !important;
+  }
+  
+  /* ###################     HOME      HOME         ######################## */
+  .home-color {
+    margin-top: -7rem;
+    background-color: rgb(2, 80, 72);
+    height: 50rem;
+  }
+  .home-page1 {
+    margin: 2rem;
+  }
+  .home-page1-l {
+    color: white;
+    padding-top: 10rem;
+  }
+  .home-p1 {
+    font-size: 24px;
+  }
+  .home-p2 {
+    padding-top: 1rem;
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 83px;
+  }
+  .home-p3 {
+    padding-top: 1rem;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+  }
+  .home-page2 {
+    margin-top: 5rem;
+    margin: 2rem;
+  }
+  .page2-p1 {
+    font-size: 16px;
+    color: #025048;
+    font-weight: 600;
+  }
+  .page2-p2 {
+    font-size: 50px;
+    line-height: 58px;
+    color: #025048;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+  }
+  .home-page3 {
+    margin: 2rem;
+    padding-top: 2rem;
+  }
+  .home-page-3-r-p1 {
+    padding-top: 1.3rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    color: #025048;
+  }
+  .home-page-3-r-p2 {
+    padding-top: 1.3rem;
+    font-size: 17px;
+  }
+  .page-4-color {
+    background-color: rgb(241, 244, 241);
+    margin-top: 12rem;
+  }
+  .home-page4 {
+    margin: 2rem;
+    padding-top: 5rem;
+  }
+  .home-page4-p1 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  .home-page4-p2 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #424b4a;
+    line-height: 59px;
+  }
+  .home-page4-p3 {
+    line-height: 30px;
+    padding-bottom: 2rem;
+    color: #424b4a;
+  }
+  .para-on-img {
+    padding-left: 5px;
+    padding: 10px;
+    height: 6rem;
+    width: 29rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    opacity: 0.8;
+    z-index: 999;
+  }
+  .para-on-img-p1 {
+    padding-top: 8px;
+    font-family: "Playfair Display", serif;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #424b4a;
+  }
+  .para-on-img-p2 {
+    margin-top: -13px;
+  }
+  .home-page5 {
+    margin: 2rem;
+    margin-top: 8rem;
+  }
+  
+  .home-page5-bag {
+    opacity: 0;
+    color: #025048;
+    transition: opacity 0.4s ease-in-out;
+  }
+  .product-card:hover .home-page5-bag {
+    opacity: 1;
+  }
+  .add-to-cart-text {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      width: 3.7rem;
+      opacity: 0;
+      font-size: 0.9rem;
+      color: #025048;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      transition: opacity 0.4s ease-in-out;
+      margin-top: 0.5rem;
+      
+    }
+    
+    .page-5-bag:hover .add-to-cart-text {
+      opacity: 1;
+    }
+  
+  .product-info {
+    margin-top: 22.5rem;
+  }
+  .type {
+    margin-top: -0.8rem;
+    color: rgba(0, 0, 0, 0.416);
+    font-weight: 500;
+  }
+  .name {
+    margin-top: -0.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 26px;
+    color: #025048;
+  }
+  .product-price {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: #424b4a;
+  }
+  .price1 {
+    color: #424b4a5f;
+    text-decoration: line-through;
+    padding-right: 0.7rem;
+  }
+  .page6-back-img{
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url("./assets/14.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page5-box {
+    border-top-left-radius: 170px;
+    border-bottom-right-radius: 400px;
+    text-align: center;
+    padding: 3rem;
+    height: 20rem;
+    width: 60rem;
+    background-color: #fff;
+  }
+  .page5-p1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #025048;
+  }
+  .page5-p2 {
+    padding-top: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #025048;
+  }
+  .home-page6 {
+    margin: 2rem;
+    margin-top: 6rem;
+  }
+  .home-page7 {
+    background-color: #f1f4f1;
+  }
+  .home-page7-mar {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  .home-page-7-box {
+    margin-left: 3rem;
+    background-color: white;
+    width: 45% !important;
+    padding: 10px;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+  }
+  .home-page-8 {
+    background-color: #f1f4f1;
+    margin-top: 4rem;
+  }
+  
+  .home-footer {
+    margin-top: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #025048;
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  /* ############################       ABOUT       ABOUT        ########################## */
+  
+  
+  /* ############################         SHOPE       SHOPE         ############################ */
+  .shope{
+    background-color: #02504827;
+    margin-top: -1.8rem;
+    padding-top: 2rem;
+  }
+
+  /* ################################     CARTS      CARTS          #####################################*/
+
+
+  .cart{
+  
+    background-color: #02504850;
+    padding-top: 10rem;
+  }
